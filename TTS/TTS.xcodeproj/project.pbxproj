@@ -14,6 +14,7 @@
 		CE7A0C0520B188B700414767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7A0C0320B188B700414767 /* LaunchScreen.storyboard */; };
 		CE7A0C1020B188B800414767 /* TTSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0C0F20B188B800414767 /* TTSTests.swift */; };
 		CE7A0C1B20B188B800414767 /* TTSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A0C1A20B188B800414767 /* TTSUITests.swift */; };
+		CE7A0C2A20B18A6800414767 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7A0C2920B18A6800414767 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE7A0C1620B188B800414767 /* TTSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7A0C1A20B188B800414767 /* TTSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSUITests.swift; sourceTree = "<group>"; };
 		CE7A0C1C20B188B800414767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7A0C2920B18A6800414767 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7A0C2A20B18A6800414767 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				CE7A0C0E20B188B800414767 /* TTSTests */,
 				CE7A0C1920B188B800414767 /* TTSUITests */,
 				CE7A0BF820B188B500414767 /* Products */,
+				CE7A0C2820B18A6800414767 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				CE7A0C1C20B188B800414767 /* Info.plist */,
 			);
 			path = TTSUITests;
+			sourceTree = "<group>";
+		};
+		CE7A0C2820B18A6800414767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A0C2920B18A6800414767 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
